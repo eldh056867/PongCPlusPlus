@@ -1,0 +1,10 @@
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\sfml-graphics-d-2.dll
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\sfml-window-d-2.dll
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\sfml-system-d-2.dll
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\freetyped.dll
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\zlibd1.dll
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\bz2d.dll
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\libpng16d.dll
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\brotlidec.dll
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\brotlicommon.dll
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\pong\x64\Debug\pong.vcxproj.Up2Date
