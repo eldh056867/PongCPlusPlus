@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\pong.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|solutionrelative:pong.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pong.cpp",
+              "DocumentMoniker": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\pong.cpp",
+              "RelativeDocumentMoniker": "pong.cpp",
+              "ToolTip": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\pong.cpp",
+              "RelativeToolTip": "pong.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-06T17:48:42.262Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
