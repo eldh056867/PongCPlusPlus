@@ -1,4 +1,10 @@
-﻿  pong.cpp
+﻿  Ball.cpp
+  Game.cpp
+  LeftPaddle.cpp
+  main.cpp
+  Right Paddle.cpp
+  Scene.cpp
+  Generating Code...
   pong.vcxproj -> C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\pong.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
