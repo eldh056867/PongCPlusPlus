@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|solutionrelative:Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Paddle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|solutionrelative:Paddle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Paddle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|solutionrelative:Paddle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|solutionrelative:Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|solutionrelative:Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Paddle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|solutionrelative:Paddle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA644294-7D12-48FF-9102-D1D1A2304BB5}|pong.vcxproj|C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 170,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -48,35 +48,22 @@
               "RelativeDocumentMoniker": "Ball.h",
               "ToolTip": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Ball.h",
               "RelativeToolTip": "Ball.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-08-06T21:06:10.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Ball.cpp",
               "DocumentMoniker": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Ball.cpp",
               "RelativeDocumentMoniker": "Ball.cpp",
               "ToolTip": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Ball.cpp",
               "RelativeToolTip": "Ball.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-06T19:28:34.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Game.cpp",
-              "DocumentMoniker": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Game.cpp",
-              "RelativeDocumentMoniker": "Game.cpp",
-              "ToolTip": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Game.cpp",
-              "RelativeToolTip": "Game.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-06T19:26:20.721Z",
               "EditorCaption": ""
             },
             {
@@ -94,15 +81,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAyAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-06T17:48:42.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Game.cpp",
+              "RelativeDocumentMoniker": "Game.cpp",
+              "ToolTip": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Game.cpp",
+              "RelativeToolTip": "Game.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-06T19:26:20.721Z",
               "EditorCaption": ""
             }
           ]
@@ -119,20 +119,20 @@
               "RelativeDocumentMoniker": "Paddle.cpp",
               "ToolTip": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Paddle.cpp",
               "RelativeToolTip": "Paddle.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-06T19:20:10.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Paddle.h",
               "DocumentMoniker": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Paddle.h",
               "RelativeDocumentMoniker": "Paddle.h",
               "ToolTip": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Paddle.h",
               "RelativeToolTip": "Paddle.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-08-06T21:12:00.441Z",
               "EditorCaption": ""

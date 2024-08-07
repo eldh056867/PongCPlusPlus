@@ -1,10 +1,11 @@
 #include "Paddle.h"
 using namespace sf;
-Paddle::Paddle(float startX, float startY)
+
+Paddle::Paddle(float startX, float startY, String paddle_type)
 {
 	position.x = startX;
 	position.y = startY;
-
+	paddleType = paddle_type;
 	paddleShape.setSize(Vector2f(5, 50));
 	paddleShape.setPosition(position);
 }
@@ -19,13 +20,17 @@ RectangleShape Paddle::getPaddleShape()
 }
 void Paddle::moveUp(float deltaTime)
 {
-	position.y++*paddleSpeed*deltaTime;
+	position.y++*paddleSpeed*deltaTime*paddleSpeed;
 }
 void Paddle::moveDown(float deltaTime)
 {
-	position.y--*paddleSpeed*deltaTime;
+	position.y--*paddleSpeed*deltaTime*paddleSpeed;
 }
 void Paddle::update()
 {
 	paddleShape.setPosition(position);
+}
+String Paddle::getPaddleType()
+{
+	return paddleType;
 }

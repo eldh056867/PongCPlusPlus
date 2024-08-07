@@ -5,13 +5,13 @@ class Paddle
 {
 	
 	private:
-		String paddletype;
+		String paddleType;
 		Vector2f position;
 		RectangleShape paddleShape;
 		float paddleSpeed = .3f;
 	public:
-
-		Paddle(float startX, float startY);
+		String getPaddleType();
+		Paddle(float startX, float startY, String paddle_type);
 		FloatRect getPosition();
 		RectangleShape getPaddleShape();
 		void moveUp(float deltaTime);
