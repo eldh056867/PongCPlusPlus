@@ -7,12 +7,14 @@ Ball::Ball(float startX, float startY)
 	position.y = startY;
 	ballShape.setRadius(10.0f);
 	ballShape.setPosition(position);
+	xVelocity = -100.0f; // Initial horizontal velocity
+	yVelocity = 100.0f;  // Initial vertical velocity
 
 }
 
 FloatRect Ball::getPosition()
 {
-	return ballShape.getLocalBounds();
+	return ballShape.getGlobalBounds();
 }
 
 CircleShape Ball::getBallShape()
@@ -22,26 +24,26 @@ CircleShape Ball::getBallShape()
 
 void Ball::bounceLeftPaddle()
 {
-	xVelocity = 1*xVelocity;
-	position.x += (yVelocity * 10); //Padding for preventing ball glitching into paddle
+	xVelocity = -xVelocity; // Reverse x direction
+	position.x += xVelocity * 0.1f; // Small padding to prevent sticking
 }
 
 void Ball::bounceRightPaddle()
 {
-	xVelocity = -1 * xVelocity;
-	position.x -= (yVelocity * 10);
+	xVelocity = -xVelocity;
+	position.x += xVelocity * 0.01f;
 }
 
 void Ball::bounceTop()
 {
-	yVelocity = -1 * yVelocity;
-	position.y -= (yVelocity * 10);
+	yVelocity = -yVelocity; // Reverse y direction
+	position.y = 0;
 }
 
 void Ball::bounceBottom()
 {
-	yVelocity = 1 * yVelocity;
-	position.y += (yVelocity * 10);
+	yVelocity = -1 * yVelocity;
+	position.y = 800 - ballShape.getRadius() * 2;
 }
 
 void Ball::update(float deltaTime)
@@ -51,11 +53,7 @@ void Ball::update(float deltaTime)
 	ballShape.setPosition(position);
 }
 
-void Ball::serve()
-{
-	yVelocity = 5;
-	xVelocity = 5;
-}
+
 
 
 

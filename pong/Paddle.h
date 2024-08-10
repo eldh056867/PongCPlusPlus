@@ -8,7 +8,7 @@ class Paddle
 		String paddleType;
 		Vector2f position;
 		RectangleShape paddleShape;
-		float paddleSpeed = .3f;
+		float paddleSpeed = .1f;
 	public:
 		String getPaddleType();
 		Paddle(float startX, float startY, String paddle_type);

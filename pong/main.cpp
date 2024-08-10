@@ -2,6 +2,7 @@
 #include "ball.h"
 #include "Paddle.h"
 using namespace sf;
+
 int main()
 {
     int height = 800;
@@ -9,10 +10,10 @@ int main()
     Ball ball(width / 2, height / 2);
     Paddle left_paddle((width / 6) * 1, height / 2, "left");
     Paddle right_paddle((width / 6) * 5, height / 2, "right");
-
+    
     // create the window
     sf::RenderWindow window(sf::VideoMode(width, height), "Pong in C++ by Eldho Rajan");
-
+    
     // run the program as long as the window is open
     while (window.isOpen())
     {
@@ -51,8 +52,38 @@ int main()
         {
             window.close();
         }
-
         
+        if (ball.getPosition().top <= 0)
+        {
+            ball.bounceTop();
+
+        }
+        if (ball.getPosition().top + ball.getPosition().height >= height)
+        {
+            ball.bounceBottom();
+
+        }
+        if (ball.getPosition().intersects(left_paddle.getPosition()))
+        {
+            ball.bounceLeftPaddle();
+        }
+        if (ball.getPosition().intersects(right_paddle.getPosition()))
+        {
+            ball.bounceRightPaddle();
+        }
+
+       
+        ball.update(deltaTime);
+        left_paddle.update();
+        right_paddle.update();
+        window.clear();
+        window.draw(left_paddle.getPaddleShape());
+        window.draw(right_paddle.getPaddleShape());
+        window.draw(ball.getBallShape());
+        
+        window.display();
+        
+
     }
 
     return 0;

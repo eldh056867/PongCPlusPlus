@@ -8,11 +8,12 @@ Paddle::Paddle(float startX, float startY, String paddle_type)
 	paddleType = paddle_type;
 	paddleShape.setSize(Vector2f(5, 50));
 	paddleShape.setPosition(position);
+	paddleSpeed = 300.0f;
 }
 
 FloatRect Paddle::getPosition()
 {
-	return paddleShape.getLocalBounds();
+	return paddleShape.getGlobalBounds();
 }
 RectangleShape Paddle::getPaddleShape()
 {
@@ -20,11 +21,11 @@ RectangleShape Paddle::getPaddleShape()
 }
 void Paddle::moveUp(float deltaTime)
 {
-	position.y++*paddleSpeed*deltaTime*paddleSpeed;
+	position.y-=paddleSpeed*deltaTime;
 }
 void Paddle::moveDown(float deltaTime)
 {
-	position.y--*paddleSpeed*deltaTime*paddleSpeed;
+	position.y+=paddleSpeed*deltaTime;
 }
 void Paddle::update()
 {

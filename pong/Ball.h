@@ -19,7 +19,6 @@ class Ball
 		void bounceTop();
 		void bounceBottom();
 		void update(float deltaTime);
-		void serve();
 		
 
 
