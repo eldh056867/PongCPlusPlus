@@ -37,7 +37,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 239,
+          "DockedWidth": 219,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-06T17:48:42.262Z",
               "EditorCaption": ""
@@ -75,12 +75,13 @@
               "RelativeToolTip": "Game.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-06T19:26:20.721Z"
+              "WhenOpened": "2024-08-06T19:26:20.721Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 161,
+          "DockedWidth": 181,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -91,7 +92,7 @@
               "RelativeDocumentMoniker": "Paddle.cpp",
               "ToolTip": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Paddle.cpp",
               "RelativeToolTip": "Paddle.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-06T19:20:10.938Z",
               "EditorCaption": ""
@@ -117,7 +118,7 @@
               "RelativeDocumentMoniker": "Ball.cpp",
               "ToolTip": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Ball.cpp",
               "RelativeToolTip": "Ball.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAiAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAE0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-06T19:28:34.112Z",
               "EditorCaption": ""
@@ -130,9 +131,10 @@
               "RelativeDocumentMoniker": "Ball.h",
               "ToolTip": "C:\\Users\\Eldho\\source\\repos\\PongCPlusPlus\\pong\\Ball.h",
               "RelativeToolTip": "Ball.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-06T21:06:10.714Z"
+              "WhenOpened": "2024-08-06T21:06:10.714Z",
+              "EditorCaption": ""
             }
           ]
         }
