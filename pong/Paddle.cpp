@@ -8,7 +8,7 @@ Paddle::Paddle(float startX, float startY, String paddle_type)
 	paddleType = paddle_type;
 	paddleShape.setSize(Vector2f(5, 50));
 	paddleShape.setPosition(position);
-	paddleSpeed = 300.0f;
+	paddleSpeed = 400.0f;
 }
 
 FloatRect Paddle::getPosition()

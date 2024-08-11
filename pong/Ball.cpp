@@ -24,25 +24,25 @@ CircleShape Ball::getBallShape()
 
 void Ball::bounceLeftPaddle()
 {
-	xVelocity = -xVelocity; // Reverse x direction
+	xVelocity = -xVelocity*1.2; // Reverse x direction
 	position.x += xVelocity * 0.1f; // Small padding to prevent sticking
 }
 
 void Ball::bounceRightPaddle()
 {
-	xVelocity = -xVelocity;
+	xVelocity = -xVelocity * 1.2;
 	position.x += xVelocity * 0.01f;
 }
 
 void Ball::bounceTop()
 {
-	yVelocity = -yVelocity; // Reverse y direction
+	yVelocity = -yVelocity * 1.2; // Reverse y direction
 	position.y = 0;
 }
 
 void Ball::bounceBottom()
 {
-	yVelocity = -1 * yVelocity;
+	yVelocity = -1 * yVelocity * 1.2;
 	position.y = 800 - ballShape.getRadius() * 2;
 }
 

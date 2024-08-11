@@ -8,3 +8,10 @@ C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\libpng16d.dll
 C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\brotlidec.dll
 C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\brotlicommon.dll
 C:\Users\Eldho\source\repos\PongCPlusPlus\pong\pong\x64\Debug\pong.vcxproj.Up2Date
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\sfml-audio-d-2.dll
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\OpenAL32.dll
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\vorbisenc.dll
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\vorbis.dll
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\ogg.dll
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\vorbisfile.dll
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\FLAC.dll
