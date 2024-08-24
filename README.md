@@ -2,7 +2,7 @@
 
 # 🎮 Pong Game in C++ with SFML
 
-Welcome to the **Pong Game** project! This repository contains a classic implementation of the Pong game, built using **C++** and **SFML**. Whether you're here to play, learn, or contribute, you're in the right place! Let's dive into the details.
+For next semester in university, we are starting to look at **C++**. Whilst for my entire computer science career the prospect of learning the language seemed daunting, I decided to do a small project for me to prepare for next semester, understand the underlying concepts of **C++** as well as make a fun tangible addition to my portfolio. This learning experience has been invaluable as it has taught me so much about the fundamentals of computer science, as well as how lower level languages function. This has definitly been the toughest lamguage I have learnt, coming from a **Java**, **C#** and **Python** background, but the flexibility and power over your program C++ gives has been an eye-opener. C++ is less forigiving as a language, and ensures the code you write must be **efficent** and **robust**. You are expected to handle **more** than other languages, however in return the knowledge you gain from it is much more in-depth than **Python** or **Java**. To help me, I have used the guides of ** The Cherno** on YT as well as other guides to make me understand some core concepcts related to the C family I was previously unfamiliar with, as well as looking back at my **Unity C#** code as well. I thoroughly enjoyed the process however, and this has opened my mind to other lower level languages I wish to explore more deeply such as **C** or even **X86 Assembly**. 
 
 ## 🚀 Features
 
@@ -10,42 +10,14 @@ Welcome to the **Pong Game** project! This repository contains a classic impleme
 - **Realistic Ball Physics:** The ball reacts to paddle hits and walls with increasing speed.
 - **Score Tracking:** Keep track of points scored by each player.
 - **Sound Effects:** Authentic Pong sound effects for an immersive experience.
-- **Customizable:** Easily tweak game settings, graphics, and sounds.
+- **Ball Speed:** Ball speeds up after every bounce!
 
 ## 🖼️ Screenshots
 
-*Insert game screenshots here to show off your game!*
+![image](https://github.com/user-attachments/assets/b7bdf393-8738-48af-ae9e-e13efdd17ede)
 
-![Pong Screenshot](path_to_screenshot.png)
 
-## 🛠️ Installation
 
-Follow these steps to get the game up and running on your machine:
-
-### Prerequisites
-
-- **C++ Compiler:** Ensure you have a C++ compiler installed (e.g., GCC, MSVC).
-- **SFML:** Download and install the SFML library from [SFML's official website](https://www.sfml-dev.org/download.php).
-
-### Cloning the Repository
-
-```bash
-git clone https://github.com/your_username/pong-game.git
-cd pong-game
-```
-
-### Building the Project
-
-1. **Compile the code** using your preferred C++ compiler.
-   ```bash
-   g++ -c main.cpp Paddle.cpp Ball.cpp Game.cpp -I/path_to_sfml_include
-   g++ main.o Paddle.o Ball.o Game.o -o pong-game -L/path_to_sfml_lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
-   ```
-
-2. **Run the game**:
-   ```bash
-   ./pong-game
-   ```
 
 ## 🎮 How to Play
 
@@ -57,36 +29,9 @@ cd pong-game
   - `Down Arrow`: Move Down
 - **Goal**: Score points by getting the ball past the opponent's paddle.
 
-## 📂 Project Structure
 
-```
-├── src
-│   ├── main.cpp        # Entry point of the game
-│   ├── Game.cpp        # Game loop and logic
-│   ├── Paddle.cpp      # Paddle movement and control
-│   ├── Ball.cpp        # Ball physics and movement
-│   └── ...
-├── include
-│   ├── Game.h          # Game class header
-│   ├── Paddle.h        # Paddle class header
-│   ├── Ball.h          # Ball class header
-│   └── ...
-├── assets
-│   ├── pong_sound_effect.mp3  # Sound effects
-│   ├── background_image.png   # Background image
-│   └── ...
-└── README.md
-```
 
-## 🧑‍💻 Contributing
 
-Contributions are welcome! If you have ideas, bug fixes, or improvements, feel free to open an issue or submit a pull request.
-
-1. **Fork the repository**
-2. **Create a new branch** (`git checkout -b feature-branch`)
-3. **Commit your changes** (`git commit -m 'Add some feature'`)
-4. **Push to the branch** (`git push origin feature-branch`)
-5. **Open a Pull Request**
 
 ## 📄 License
 
@@ -95,12 +40,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 🙌 Acknowledgements
 
 - **SFML**: Thanks to the [SFML](https://www.sfml-dev.org/) team for the awesome library!
-- **Inspiration**: Classic Pong game for providing the blueprint for endless fun.
+- **Inspiration**: Classic Pong game for providing the blueprint.
+- **Game Code School** : https://gamecodeschool.com/sfml/coding-a-simple-pong-game-with-sfml/ For providing the blueprint to help to expand my game.
+- **Game Code School** : [https://gamecodeschool.com/sfml/coding-a-simple-pong-game-with-sfml/](https://dooglz.github.io/set09121/pong.html) For help with understanding the underlying mechanics.
 
 ---
 
 ⭐ If you like this project, please give it a star!
-
----
-
-This template includes sections like features, installation, gameplay instructions, project structure, and more to make it easy for others to understand and contribute to your project. You can replace placeholders like `your_username` and `path_to_screenshot.png` with the actual information related to your project.
