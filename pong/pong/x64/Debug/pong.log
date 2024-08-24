@@ -1,14 +1,23 @@
-﻿  main.cpp
-C:\Users\Eldho\source\repos\PongCPlusPlus\pong\main.cpp(37,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Eldho\source\repos\PongCPlusPlus\pong\main.cpp(37,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Eldho\source\repos\PongCPlusPlus\pong\main.cpp(38,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Eldho\source\repos\PongCPlusPlus\pong\main.cpp(38,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Eldho\source\repos\PongCPlusPlus\pong\main.cpp(56,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Eldho\source\repos\PongCPlusPlus\pong\main.cpp(56,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Eldho\source\repos\PongCPlusPlus\pong\main.cpp(57,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Eldho\source\repos\PongCPlusPlus\pong\main.cpp(57,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Eldho\source\repos\PongCPlusPlus\pong\main.cpp(58,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Eldho\source\repos\PongCPlusPlus\pong\main.cpp(58,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+﻿  Ball.cpp
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\Ball.cpp(30,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\Ball.cpp(37,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\Ball.cpp(44,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\Ball.cpp(51,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Game.cpp
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\Game.cpp(34,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\Game.cpp(34,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\Game.cpp(35,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\Game.cpp(35,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\Game.cpp(52,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\Game.cpp(52,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\Game.cpp(53,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\Game.cpp(53,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\Game.cpp(54,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\Game.cpp(54,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Paddle.cpp
+  main.cpp
+C:\Users\Eldho\source\repos\PongCPlusPlus\pong\main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
   pong.vcxproj -> C:\Users\Eldho\source\repos\PongCPlusPlus\pong\x64\Debug\pong.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
